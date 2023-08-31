@@ -1,0 +1,19 @@
+{
+  "name": "collect-fee-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist; tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@manahippo/hippo-sdk": "6.1.8",
+    "aptos": "1.10.0",
+    "commander": "11.0.0",
+    "typescript": "^5.2.2",
+    "@types/node": "^20.5.7",
+    "tslib": "^2.6.2",
+    "yaml": "^2.3.2"
+  }
+}
