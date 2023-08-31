@@ -10,3 +10,11 @@ To run the example:
 5. `node dist/index.js -c PATH_TO_CONFIG.yaml swap-with-fee APT zUSDC 0.1`
 
 Note that the sample code collects 0.1% fee and sends the fee to the hippo aggregator's contract address.
+
+
+Note that this sample uses these versions:
+- aptos: 1.10.0
+- hippo-sdk: 6.1.8
+
+It is important to make sure the version of `aptos` used in your project matches with the version of `aptos` used by 
+`hippo-sdk` or various runtime type errors might occur.
